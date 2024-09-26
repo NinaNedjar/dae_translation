@@ -1,0 +1,111 @@
+[   
+            {
+                "label": "Given Name",
+                "property": "given_name",
+                "display": true
+            },
+            {
+                "label": "Family Name",
+                "property": "family_name",
+                "display": true
+            },
+            {
+                "label": "Country",
+                "property": "app_metadata.country",
+                "display": true,
+                "create":  {
+                        "required": true,
+                        "display": true,
+                        "type": "select",
+                        "component": "InputCombo",
+                        "options": [{"value": "FR", "label":"France"}, {"value": "BE", "label":"Belgique"}, {"value": "CH", "label":"Suisse"}]
+                }
+            },
+            {
+                "label": "Civility",
+                "property": "app_metadata.civility",
+                "display": true,
+                "create":  {
+                        "required": true,
+                        "display": true,
+                        "type": "select",
+                        "component": "InputCombo",
+                        "options": [{"value": "Mr.", "label":"Mister"}, {"value": "Mme.", "label":"Miss"}, {"value": "Dr.", "label":"Doctor"},{"value": "Prof.", "label":"Professor"}]
+                }
+            },
+            {
+                "label": "Blocked",
+                "property": "isBlocked",
+                "display": true
+            },
+            {
+                "label": "Last Login",
+                "property": "last_login",
+                "display": true
+            },
+            {
+                "label": "Logins count",
+                "property": "logins_count",
+                "display": true
+            },
+            {
+                "label": "MFA",
+                "property": "multifactor",
+                "display": true
+            },
+            {
+                "label": "Creation date",
+                "property": "created_at",
+                "display": true
+            },
+            {
+                "label": "Last update",
+                "property": "updated_at",
+                "display": true
+            },
+            {
+                "label": "Auth0 user ID",
+                "property": "user_id",
+                "display": true
+            },
+            {
+                "label": "Email verified",
+                "property": "email_verified",
+                "display": true
+            },
+            {
+                "label": "Last password reset",
+                "property": "last_password_reset",
+                "display": true
+            },
+            {
+                "label": "Last MFA modification",
+                "property": "multifactor_last_modified",
+                "display": true
+            },
+            {
+                "label": "Nickname",
+                "property": "nickname",
+                "display": false
+            },
+            {
+                "label": "Blocked for",
+                "property": "blocked_for",
+                "display": false
+            },
+            {
+                "label": "Name",
+                "property": "name",
+                "display": true
+            },
+            {
+                "label": "Identity",
+                "property": "connection",
+                "display": false
+            },
+            {
+                "label": "Last IP",
+                "property": "last_ip",
+                "display": false
+            }
+          ]

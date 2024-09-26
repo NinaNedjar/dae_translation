@@ -1,0 +1,364 @@
+{
+    "loginsCountLabel": "Nombre de connexions:",
+    "searchBarPlaceholder": "Recherche d'utilisateur en syntaxe Lucene",
+    "deviceNameColumnHeader": "Appareil",
+    "deviceNumberTokensColumnHeader": "# de Jetons/Cl\u00e9s publique",
+    "noDevicesMessage": "Cet utilisateur n'a aucun appareil enregistr\u00e9.",
+    "usersAndLogsMenuItemText": "Utilisateurs & Journaux",
+    "configurationMenuItemText": "Configuration",
+    "logoutMenuItemText": "D\u00e9connexion",
+    "toggleStyleSetDefault": "Passer au CSS par défaut",
+    "toggleStyleSetAlternative": "Passer au CSS alternatif",
+    "userUsersTabTitle": "Utilisateurs",
+    "userLogsTabTitle": "Journaux",
+    "userActionsButton": "Actions",
+    "logEventColumnHeader": "Ev\u00e8nement",
+    "logDescriptionColumnHeader": "Description",
+    "logDateColumnHeader": "Date",
+    "logConnectionColumnHeader": "Connexion",
+    "logApplicationColumnHeader": "Application",
+    "logDialogTitleText": "Journal",
+    "logDialogDefaultLogRecordText": "Registre",
+    "logTableDefaultLogRecordDescription": "Remplacement de la description du journal",
+    "noLogsMessage": "Aucun journal trouvé",
+    "cancelButtonText": "Annuler",
+    "updateButtonText": "Actualiser",
+    "createButtonText": "Cr\u00e9er",
+    "closeButtonText": "Fermer",
+    "momentLocale": "fr",
+    "notApplicableLabel": "Non applicable",
+    "blockUserMenuItemText": "Bloquer l'utilisateur",
+    "changeEmailMenuItemText": "(inactif) Modfier le courriel",
+    "changePasswordMenuItemText": "(inactif) Modifier le Mot de passe",
+    "deleteUserMenuItemText": "Supprimer un utilisateur",
+    "changeFieldsMenuItemText": "Modifier les champs",
+    "removeMfaMenuItemText": "Retirer le multi-facteur",
+    "resendVerificationEmailMenuItemText": "Envoyer de nouveau la v\u00e9rification par courriel",
+    "resetPasswordMenuItemText": "R\u00e9initialiser le mot de passe",
+    "changeUsernameMenuItemText": "(inactif) Modifier le nom de l'utilisateur",
+    "unblockUserMenuItemText": "D\u00e9bloquer l'utilisateur",
+    "removeBlockedIPsMenuItemText": "D\u00e9bloquer pour toutes les IPs",
+    "blockDialogMessage": "Est-ce que vous-voulez vraiment bloquer {username}? Apr\u00e8s cela l'utilisateur ne pourra plus se connecter.",
+    "blockDialogTitle": "Bloquer un utilisateur ?",
+    "createDialogTitle": "Cr\u00e9er un utilisateur",
+    "deleteDialogMessage": "Est-ce que vous-voulez vraiment supprimer le compte {username} ? Apr\u00e8s cela l'utilisateur sera compl\u00e8tement supprim\u00e9 de fa\u00e7on d\u00e9finitive.",
+    "deleteDialogTitle": "Supprimer un utilisateur ?",
+    "changeEmailMessage": "Est-ce que vous voulez vraiment changer le courriel pour l'utilisateur {username} ?",
+    "changeEmailTitle": "Modifier un Courriel ?",
+    "changeProfileDialogTitle": "Modifier le profil",
+    "changePasswordMessage": "Est-ce que vous voulez vraiment modifier le mot de passe pour {username} ? Vous aurez besoin d'un moyen s\u00fbr de communiquer le nouveau mot de passe \u00e0 votre utilisateur ne jamais envoyer \u00e0 l'utilisateur ce nouveau mot de passe en texte clair.",
+    "changePasswordTitle": "Changement de mot de passe ?",
+    "resetPasswordMessage": "Est-ce que vous voulez vraiment r\u00e9initialiser le mot de passe pour {username} ?  Cela enverra un courriel \u00e0 l'utilisateur pour choisir un nouveau mot de passe.",
+    "resetPasswordTitle": "R\u00e9initialiser le mot de passe ?",
+    "removeMultiFactorMessage": "D\u00e9sirez-vous retirer l'authentification multi-facteur pour cet utilisateur {username} ?  Ceci permettra \u00e0 l'utilisateur de s'authentifier et configurer un nouvel appareil",
+    "removeMultiFactorTitle": "Retirer l'authentification multi-facteur",
+    "resendVerificationEmailMessage": "D\u00e9sirez-vous renvoyer le courriel de v\u00e9rification \u00e0 {username} ?",
+    "resendVerificationEmailTitle": "Renvoyer le courriel de v\u00e9rification",
+    "unblockDialogMessage": "D\u00e9sirez-vous débloquer {username} ? L'utilisateur pourra à nouveau se connecter.",
+    "unblockDialogTitle": "D\u00e9bloquer l'utilisateur",
+    "changeUsernameMessage": "Confirmez que vous d\u00e9sirez changer le code utilisateur pour  {username} ?",
+    "changeUsernameTitle": "Changer le code utilisateur",
+    "userUserInfoTabTitle": "Informations sur l'utilisateur",
+    "userDevicesTabTitle": "Dispositifs",
+    "userProfileTabTitle": "Profil",
+    "userTitle": "D\u00e9tails des utilisateurs",
+    "createUserButtonText": "Cr\u00e9er utilisateur",
+    "usersTitle": "Utilisateurs",
+    "loginErrorTitle": "Erreur de connexion",
+    "loginErrorButtonText": "Connexion",
+    "logsRefreshButtonText": "Actualiser",
+    "logsLoadMoreButtonText": "Charger plus",
+    "requiredFieldLabel": "(requis)",
+    "requiredErrorText": "requis",
+    "errorTitle": "Oh non!",
+    "errors": {
+      "defaultErrorMessage": "Erreur inconnue",
+      "FETCH_ACCESS_LEVEL": {
+        "default": "Une erreur s'est produite lors du chargement des paramètres : {message}"
+      },
+      "FETCH_APPLICATIONS": {
+        "default": "Une erreur s'est produite lors du chargement des applications : {message}"
+      },
+      "BLOCK_USER": {
+        "default": "Une erreur s'est produite lors du blocage de l'utilisateur : {message}"
+      },
+      "FETCH_CONNECTIONS": {
+        "default": "Une erreur s'est produite lors du chargement des connexions : {message}"
+      },
+      "EMAIL_CHANGE": {
+        "default": "Une erreur s'est produite lors de la modification de l'e-mail : {message}"
+      },
+      "FIELDS_CHANGE": {
+        "default": "Une erreur s'est produite lors de la modification des champs des utilisateurs : {message}"
+      },
+      "FETCH_LANGUAGE_DICTIONARY": {
+        "default": "Une erreur s'est produite lors du chargement du dictionnaire de langue : {message}"
+      },
+      "FETCH_LOG": {
+        "default": "Une erreur s'est produite lors du chargement de l'enregistrement de journal : {message}"
+      },
+      "FETCH_LOGS": {
+        "default": "Une erreur s'est produite lors du chargement de la liste des journaux : {message}"
+      },
+      "REMOVE_MULTIFACTOR": {
+        "default": "Une erreur s'est produite lors de la suppression de l'authentification multifacteur pour l'utilisateur : {message}"
+      },
+      "PASSWORD_CHANGE": {
+        "default": "Une erreur s'est produite lors de la modification du mot de passe : {message}"
+      },
+      "PASSWORD_RESET": {
+        "default": "Une erreur s'est produite lors de la réinitialisation du mot de passe : {message}"
+      },
+      "FETCH_SCRIPT": {
+        "default": "Une erreur s'est produite lors du chargement du script : {message}"
+      },
+      "UPDATE_SCRIPT": {
+        "default": "Une erreur s'est produite lors de l'enregistrement du script : {message}"
+      },
+      "FETCH_SETTINGS": {
+        "default": "Une erreur s'est produite lors du chargement des paramètres : {message}"
+      },
+      "UNBLOCK_USER": {
+        "default": "Une erreur s'est produite lors du déblocage de l'utilisateur : {message}"
+      },
+      "FETCH_USER_LOGS": {
+        "default": "Une erreur s'est produite lors du chargement des journaux utilisateur : {message}"
+      },
+      "FETCH_USER_DEVICES": {
+        "default": "Une erreur s'est produite lors du chargement des appareils utilisateur : {message}"
+      },
+      "FETCH_USER": {
+        "default": "Une erreur s'est produite lors du chargement de l'utilisateur : {message}"
+      },
+      "CREATE_USER": {
+        "default": "Une erreur s'est produite pendant la création d'un utilisateut: {message}"
+      },
+      "DELETE_USER": {
+        "default": "Une erreur s'est produite lors de la réinitialisation du MFA Email de l'utilisateur : {message}"
+      },
+      "USERNAME_CHANGE": {
+        "default": "Une erreur s'est produite lors de la modification du nom d'utilisateur : {message}"
+      },
+      "FETCH_USERS": {
+        "default": "Une erreur s'est produite lors du chargement de la liste des utilisateurs : {message}"
+      },
+      "RESEND_VERIFICATION_EMAIL": {
+        "default": "Une erreur s'est produite lors de l'envoi de l'e-mail de vérification : {message}"
+      }
+    },
+    "searchBarInstructions": "Pour effectuer votre recherche, appuyez sur Entrée. Vous pouvez également rechercher des champs spécifiques, par exemple : email:\"john@doe.com\".",
+    "searchBarReset": "Réinitialiser",
+    "paginationTextFormat": "Page {current} sur {total}",
+    "tableTotalsTextFormat": "Affichage de {current} sur {total}",
+    "createUsersButtonText": "Créer un utilisateur",
+    "validationError": "Erreur de validation",
+    "dialogConfirmText": "Confirmer",
+    "dialogCancelText": "Annuler",
+    "yesLabel": "Oui",
+    "noLabel": "Non",
+    "logTypes": {
+      "s": {
+        "event": "Connexion réussie"
+      },
+      "ssa": {
+        "event": "Authentification silencieuse réussie"
+      },
+      "seacft": {
+        "event": "Echange réussi",
+        "description": "Code d'autorisation pour l'access token"
+      },
+      "feacft": {
+        "event": "Échec de l'échange",
+        "description": "Code d'autorisation pour l'access token"
+      },
+      "f": {
+        "event": "Échec de la connexion"
+      },
+      "fsa": {
+        "event": "Échec de l'authentification silencieuse"
+      },
+      "w": {
+        "event": "Avertissements lors de la connexion"
+      },
+      "du": {
+        "event": "Utilisateur supprimé"
+      },
+      "fu": {
+        "event": "Échec de la connexion (e-mail/nom d'utilisateur invalide)"
+      },
+      "fp": {
+        "event": "Échec de la connexion (mot de passe erroné)"
+      },
+      "fc": {
+        "event": "Échec par le connecteur"
+      },
+      "fco": {
+        "event": "Échec par CORS"
+      },
+      "con": {
+        "event": "Connecteur en ligne"
+      },
+      "coff": {
+        "event": "Connecteur hors ligne"
+      },
+      "fcpro": {
+        "event": "Échec du provisionnement du connecteur"
+      },
+      "ss": {
+        "event": "Inscription réussie"
+      },
+      "fs": {
+        "event": "Échec de l'inscription"
+      },
+      "cs": {
+        "event": "Code envoyé"
+      },
+      "cls": {
+        "event": "Code/lien envoyé"
+      },
+      "sv": {
+        "event": "Email de vérification du succès"
+      },
+      "fv": {
+        "event": "Échec de l'e-mail de vérification"
+      },
+      "scp": {
+        "event": "Changement de mot de passe réussi"
+      },
+      "fcp": {
+        "event": "Échec du changement de mot de passe"
+      },
+      "sce": {
+        "event": "Changement d'adresse e-mail réussi"
+      },
+      "fce": {
+        "event": "Échec du changement d'adresse e-mail"
+      },
+      "scu": {
+        "event": "Changement du nom d'utilisateur réussi"
+      },
+      "fcu": {
+        "event": "Échec de la modification du nom d'utilisateur"
+      },
+      "scpn": {
+        "event": "Changement de numéro de téléphone réussi"
+      },
+      "fcpn": {
+        "event": "Échec du changement de numéro de téléphone"
+      },
+      "svr": {
+        "event": "Demande d'e-mail de vérification réussie "
+      },
+      "fvr": {
+        "event": "Échec de la demande d'e-mail de vérification"
+      },
+      "scpr": {
+        "event": "Demande de changement de mot de passe réussie"
+      },
+      "fcpr": {
+        "event": "Échec de la demande de changement de mot de passe"
+      },
+      "fn": {
+        "event": "Échec de l'envoi de la notification"
+      },
+      "sapi": {
+        "event": "Fonctionnement de l'API"
+      },
+      "fapi": {
+        "event": "Échec de l'opération d'API"
+      },
+      "limit_wc": {
+        "event": "Compte bloqué"
+      },
+      "limit_ui": {
+        "event": "Trop d'appels vers /userinfo"
+      },
+      "api_limit": {
+        "event": "Limite de débit sur l'API"
+      },
+      "sdu": {
+        "event": "Suppression réussie de l'utilisateur"
+      },
+      "fdu": {
+        "event": "Échec de la suppression de l'utilisateur"
+      },
+      "seccft": {
+        "event": "Échange réussi (informations d'identification du client)"
+      },
+      "feccft": {
+        "event": "Échec de l'échange (informations d'identification du client)"
+      },
+      "limit_mu": {
+        "event": "Adresse IP bloquée"
+      },
+      "slo": {
+        "event": "Déconnexion réussie"
+      },
+      "flo": {
+        "event": "Échec de la déconnexion"
+      },
+      "sd": {
+        "event": "Délégation réussie"
+      },
+      "fd": {
+        "event": "Échec de la délégation"
+      },
+      "gd_start_enroll": {
+        "event": "L'inscription a commencé",
+        "description": "Guardian- Commencer l'inscription du deuxième facteur"
+      },
+      "gd_enrollment_complete": {
+        "event": "Inscription du guardian terminée",
+        "description": "Guardian - Inscription terminée"
+      },
+      "gd_auth_succeed": {
+        "event": "Authentification OTP réussie",
+        "description": "Guardian - L'authentification au deuxième facteur a réussi"
+      },
+      "gd_unenroll": {
+        "event": "Désinscrire le compte de l'appareil",
+        "description": "Guardian - Inscription supprimée"
+      },
+      "gd_send_sms": {
+        "event": "SMS envoyé",
+        "description": "Guardian - Second facteur SMS envoyé"
+      },
+      "gd_send_voice": {
+        "event": "Appel vocal envoyé",
+        "description": "Guardian - Second facteur Appel vocal envoyé"
+      },
+      "gd_send_email": {
+        "event": "Email envoyé",
+        "description": "Guardian - Second facteur email envoyé"
+      },
+      "gd_start_auth": {
+        "event": "Deuxième facteur initialisé",
+        "description": "Guardian - Début de l'authentification à deux facteurs"
+      },
+      "gd_send_sms_failure": {
+        "event": "Erreur lors de l'envoi de SMS",
+        "description": "Guardian - Il y a eu une erreur pendant l'envoi du SMS"
+      },
+      "gd_send_voice_failure": {
+        "event": "Erreur lors de l'envoi d'un appel vocal",
+        "description": "Guardian - Il y a eu une erreur pendant l'envoi de l'appel vocal"
+      },
+      "sui": {
+        "event": "Importation d'utilisateurs",
+        "description": "Importation des utilisateurs terminée"
+      },
+      "mfar": {
+        "event": "MFA requis",
+        "description": "Connexion avec MFA jugé nécessaire"
+      }
+    },
+    "labels": {
+      "name": "Nom",
+      "email": "Email",
+      "password": "Mot de passe",
+      "repeatPassword": "Confirmer le mot de passe",
+      "username": "Nom d'utilisateur",
+      "app_metadata.city": "Ville"
+    }
+  }
+  
