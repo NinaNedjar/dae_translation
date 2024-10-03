@@ -12,26 +12,12 @@
             {
                 "label": "Country",
                 "property": "app_metadata.country",
-                "display": true,
-                "create":  {
-                        "required": true,
-                        "display": true,
-                        "type": "select",
-                        "component": "InputCombo",
-                        "options": [{"value": "FR", "label":"France"}, {"value": "BE", "label":"Belgique"}, {"value": "CH", "label":"Suisse"}]
-                }
+                "display": true
             },
             {
                 "label": "Civility",
                 "property": "app_metadata.civility",
-                "display": true,
-                "create":  {
-                        "required": true,
-                        "display": true,
-                        "type": "select",
-                        "component": "InputCombo",
-                        "options": [{"value": "Mr.", "label":"Mister"}, {"value": "Mme.", "label":"Miss"}, {"value": "Dr.", "label":"Doctor"},{"value": "Prof.", "label":"Professor"}]
-                }
+                "display": true
             },
             {
                 "label": "Blocked",
