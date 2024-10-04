@@ -105,7 +105,7 @@
             },
             {
                 "label": "Repeat Password",
-                "property": "repeat_password",
+                "property": "repeatPassword",
                 "display": false,
                 "create" : {
                    "display" : false,

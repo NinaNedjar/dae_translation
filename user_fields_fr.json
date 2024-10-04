@@ -105,7 +105,7 @@
             },
             {
                 "label": "Confirmer le mot de passe",
-                "property": "repeat_password",
+                "property": "repeatPassword",
                 "display": false,
                 "create" : {
                    "display" : false,
