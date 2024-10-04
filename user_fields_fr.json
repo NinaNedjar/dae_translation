@@ -93,5 +93,13 @@
                 "label": "Dernière IP",
                 "property": "last_ip",
                 "display": false
+            },
+            {
+                "label": "Mot de passe",
+                "property": "password",
+                "display": false,
+                "create" : {
+                   "display" : false
+                }
             }
           ]
