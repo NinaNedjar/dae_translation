@@ -100,7 +100,7 @@
                 "display": false,
                 "create" : {
                    "display" : false,
-                   "type" : "password",
+                   "type" : "hidden",
                    "disabled": true
                 }
             },
@@ -110,7 +110,7 @@
                 "display": false,
                 "create" : {
                    "display" : false,
-                   "type" : "password",
+                   "type" : "hidden",
                    "disabled": true
                 }
             }
