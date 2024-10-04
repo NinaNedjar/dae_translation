@@ -95,11 +95,21 @@
                 "display": false
             },
             {
-                "label": "Password",
+                "label": "Password TEST",
                 "property": "password",
                 "display": false,
                 "create" : {
-                   "display" : false
+                   "display" : false,
+                   "type" : "password"
+                }
+            },
+            {
+                "label": "Repeat Password",
+                "property": "repeat_password",
+                "display": false,
+                "create" : {
+                   "display" : false,
+                   "type" : "password"
                 }
             }
           ]

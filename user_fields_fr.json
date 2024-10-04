@@ -99,7 +99,17 @@
                 "property": "password",
                 "display": false,
                 "create" : {
-                   "display" : false
+                   "display" : false,
+                   "type" : "password"
+                }
+            },
+            {
+                "label": "Confirmer le mot de passe",
+                "property": "repeat_password",
+                "display": false,
+                "create" : {
+                   "display" : false,
+                   "type" : "password"
                 }
             }
           ]
