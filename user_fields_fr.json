@@ -85,15 +85,6 @@
                 "display": true
             },
             {
-                "label": "Identité",
-                "property": "connection",
-                "create" : {
-                   "display" : false,
-                   "type" : "hidden",
-                   "disabled": true
-                }
-            },
-            {
                 "label": "Dernière IP",
                 "property": "last_ip",
                 "display": false
