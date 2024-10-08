@@ -353,12 +353,7 @@
       }
     },
     "labels": {
-      "name": "Nom",
-      "email": "Email",
-      "password": "Mot de passe",
-      "repeatPassword": "Confirmer le mot de passe",
-      "username": "Nom d'utilisateur",
-      "app_metadata.city": "Ville"
+      "email": "Email"
     }
   }
   

@@ -108,5 +108,10 @@
                    "type" : "hidden",
                    "disabled": true
                 }
+            },
+            {
+                "label": "Connection",
+                "property": "identity",
+                "display": false
             }
           ]
