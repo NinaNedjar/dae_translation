@@ -87,7 +87,11 @@
             {
                 "label": "Identité",
                 "property": "connection",
-                "display": false
+                "create" : {
+                   "display" : false,
+                   "type" : "hidden",
+                   "disabled": true
+                }
             },
             {
                 "label": "Dernière IP",

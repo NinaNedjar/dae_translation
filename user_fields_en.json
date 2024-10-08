@@ -87,7 +87,12 @@
             {
                 "label": "Identity",
                 "property": "connection",
-                "display": false
+                "display": false,
+                "create" : {
+                   "display" : false,
+                   "type" : "hidden",
+                   "disabled": true
+                }
             },
             {
                 "label": "Last IP",
@@ -106,6 +111,16 @@
             },
             {
                 "label": "Repeat Password",
+                "property": "repeatPassword",
+                "display": false,
+                "create" : {
+                   "display" : false,
+                   "type" : "hidden",
+                   "disabled": true
+                }
+            },
+            {
+                "label": "Identity",
                 "property": "repeatPassword",
                 "display": false,
                 "create" : {
