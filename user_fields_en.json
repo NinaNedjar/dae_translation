@@ -25,6 +25,11 @@
                 "display": true
             },
             {
+                "label": "Blocked by brute force",
+                "property": "blocked_for",
+                "display": true
+            },
+            {
                 "label": "Last Login",
                 "property": "last_login",
                 "display": true
