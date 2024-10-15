@@ -28,7 +28,7 @@
     "momentLocale": "fr",
     "notApplicableLabel": "Non applicable",
     "blockUserMenuItemText": "Bloquer l'utilisateur",
-    "changeEmailMenuItemText": "(inactif) Modifier l'email'",
+    "changeEmailMenuItemText": "(inactif) Modifier l'email",
     "changePasswordMenuItemText": "(inactif) Modifier le mot de passe",
     "deleteUserMenuItemText": "Supprimer un utilisateur",
     "changeFieldsMenuItemText": "Modifier le profil",
