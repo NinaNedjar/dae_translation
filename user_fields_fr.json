@@ -10,7 +10,7 @@
                 "display": true
             },
             {
-                "label": "Country",
+                "label": "Pays",
                 "property": "app_metadata.country",
                 "display": true,
                 "create": {
