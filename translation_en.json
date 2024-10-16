@@ -1,9 +1,9 @@
 {
     "changeEmailMenuItemText": "(inactive) Change email",
     "changePasswordMenuItemText": "(inactive) Change password",
-    "changeEmailMessage": "Changing email is not allowed for ",
+    "changeEmailMessage": "Changing email is not allowed for {username}",
     "changeEmailTitle": "Change Email ( inactive )",
-    "changePasswordMessage": "Changing password is not allowed for",
+    "changePasswordMessage": "Changing password is not allowed for {username}",
     "changePasswordTitle": "Password Change (inactive)",
     "errors": {
         "EMAIL_CHANGE": {
