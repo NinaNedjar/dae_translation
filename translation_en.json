@@ -1,4 +1,16 @@
 {
     "changeEmailMenuItemText": "(inactive) Change email",
-    "changePasswordMenuItemText": "(inactive) Change password"
+    "changePasswordMenuItemText": "(inactive) Change password",
+    "changeEmailMessage": "Changing email is not allowed",
+    "changeEmailTitle": "Change Email ( inactive )",
+    "changePasswordMessage": "Changing password is not allowed",
+    "changePasswordTitle": "Password Change (inactive)",
+    "errors": {
+        "EMAIL_CHANGE": {
+        "default": "This action is not allowed in the DAE"
+      },
+      "PASSWORD_CHANGE": {
+        "default": "This action is not allowed in the DAE"
+      }
+    }
 }
