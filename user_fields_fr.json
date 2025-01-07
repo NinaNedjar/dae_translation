@@ -157,5 +157,30 @@
                     { "value": "false", "label": "Interdire l'accès" }
                   ]
                 }
+              },
+              {
+                "label": "If U care ", 
+                "property": "app_metadata.if_u_care",
+                "display": true,
+                "create": {
+                  "required": true,
+                  "display": true,
+                  "type": "select",
+                  "component": "InputCombo",
+                  "options": [
+                    { "value": "true", "label": "Autorisé l'accès" },
+                    { "value": "false", "label": "Interdire l'accès" }
+                  ]
+                },
+                "edit": {
+                  "required": false,
+                  "display": true,
+                  "type": "select",
+                  "component": "InputCombo",
+                  "options": [
+                    { "value": "true", "label": "Autorisé l'accès" },
+                    { "value": "false", "label": "Interdire l'accès" }
+                  ]
+                }
               }
           ]

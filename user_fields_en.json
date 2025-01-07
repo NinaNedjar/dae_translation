@@ -157,5 +157,30 @@
                     { "value": "false", "label": "Forbid access" }
                   ]
                 }
+              },
+              {
+                "label": "If U Care", 
+                "property": "app_metadata.if_u_care",
+                "display": true,
+                "create": {
+                  "required": true,
+                  "display": true,
+                  "type": "select",
+                  "component": "InputCombo",
+                  "options": [
+                    { "value": "true", "label": "Grant access" },
+                    { "value": "false", "label": "Forbid access" }
+                  ]
+                },
+                "edit": {
+                  "required": false,
+                  "display": true,
+                  "type": "select",
+                  "component": "InputCombo",
+                  "options": [
+                    { "value": "true", "label": "Grant access" },
+                    { "value": "false", "label": "Forbid access" }
+                  ]
+                }
               }
           ]
