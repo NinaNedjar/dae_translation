@@ -132,5 +132,30 @@
                 "label": "Connection",
                 "property": "identity",
                 "display": false
-            }
+            },
+            {
+                "label": "M In App", 
+                "property": "app_metadata.m_in_app",
+                "display": true,
+                "create": {
+                  "required": true,
+                  "display": true,
+                  "type": "select",
+                  "component": "InputCombo",
+                  "options": [
+                    { "value": "true", "label": "Autorisé l'accès" },
+                    { "value": "false", "label": "Interdire l'accès" }
+                  ]
+                },
+                "edit": {
+                  "required": false,
+                  "display": true,
+                  "type": "select",
+                  "component": "InputCombo",
+                  "options": [
+                    { "value": "true", "label": "Autorisé l'accès" },
+                    { "value": "false", "label": "Interdire l'accès" }
+                  ]
+                }
+              }
           ]
