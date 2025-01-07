@@ -3,25 +3,26 @@ header.dashboard-header {
   background-color: #cee7ff !important;
   border-bottom-color: #00519e !important;
   padding: 20px;
-  position: relative; /* Permet de positionner les enfants */
+  display: flex; /* Utiliser Flexbox pour aligner le logo et le titre */
+  align-items: center; /* Centrer verticalement les éléments */
 }
 
-.navbar-default .navbar-brand:focus,
-.navbar-default .navbar-brand:hover {
-  color: #000 !important;
-}
-
-/* Logo toujours en haut à gauche */
+/* Logo à gauche */
 header.dashboard-header nav #header {
   background-image: url("https://sebia-emea-public.s3.eu-west-3.amazonaws.com/Logo.png") !important;
-  background-size: auto 50px; /* Taille par défaut du logo */
+  background-size: auto 50px; /* Taille du logo */
   background-repeat: no-repeat;
-  background-position: left center; /* Toujours à gauche */
-  position: absolute; /* Position fixe par rapport au parent */
-  top: 10px; /* Distance du haut */
-  left: 10px; /* Distance de la gauche */
-  width: 60px; /* Largeur maximale pour éviter de chevaucher */
-  height: 50px; /* Hauteur maximale */
+  background-position: center; /* Centrer l'image dans le conteneur */
+  height: 50px; /* Fixer la hauteur du conteneur du logo */
+  width: 50px; /* Fixer la largeur du conteneur du logo */
+  margin-right: 20px; /* Ajouter de l'espace entre le logo et le titre */
+}
+
+/* Titre à droite du logo */
+header.dashboard-header h1 {
+  font-size: 24px; /* Taille du texte du titre */
+  font-weight: bold;
+  margin: 0; /* Supprimer les marges par défaut */
 }
 
 /* Texte de description */
@@ -29,7 +30,7 @@ header.dashboard-header nav #header {
   content: "You will find here all the applications of Sebia ecosystem";
   display: block;
   visibility: visible;
-  font-size: 16px; /* Taille par défaut */
+  font-size: 16px;
   text-align: center;
 }
 
@@ -46,48 +47,38 @@ img {
 /* Media Queries pour écrans de téléphone (moins de 768px) */
 @media (max-width: 768px) {
   header.dashboard-header {
-      padding: 10px; /* Réduction du padding */
+      padding: 10px; /* Réduction du padding pour petits écrans */
   }
 
   header.dashboard-header nav #header {
-      background-size: auto 30px; /* Réduire la taille du logo */
-      top: 5px; /* Ajustement de l'espacement */
-      left: 5px; /* Ajustement de l'espacement */
-      width: 40px; /* Ajuster la largeur pour téléphone */
-      height: 30px; /* Ajuster la hauteur pour téléphone */
+      background-size: auto 40px; /* Réduction de la taille du logo */
+      height: 40px;
+      width: 40px;
+      margin-right: 10px; /* Réduction de l'espace entre logo et titre */
   }
 
-  /* Ajuster la navigation */
-  .navbar-default .navbar-brand {
-      font-size: 14px; /* Réduire la taille du texte */
+  header.dashboard-header h1 {
+      font-size: 18px; /* Réduire la taille du titre */
   }
 
   .page-description::before {
-      font-size: 12px; /* Réduire la taille de la description */
-      padding: 5px;
-  }
-
-  /* Alignement des éléments avec Flexbox */
-  header.dashboard-header nav {
-      display: flex;
-      flex-direction: column; /* Empiler les éléments */
-      align-items: center; /* Centrer les éléments, sauf le logo */
+      font-size: 12px; /* Réduction de la taille de la description */
   }
 }
 
 /* Media Queries pour écrans très petits (moins de 480px) */
 @media (max-width: 480px) {
   header.dashboard-header nav #header {
-      background-size: auto 20px; /* Encore plus petit pour le logo */
+      background-size: auto 30px; /* Réduire encore la taille du logo */
+      height: 30px;
       width: 30px;
-      height: 20px;
   }
 
-  .navbar-default .navbar-brand {
-      font-size: 12px; /* Texte encore plus petit */
+  header.dashboard-header h1 {
+      font-size: 16px; /* Réduire la taille du titre */
   }
 
   .page-description::before {
-      font-size: 10px; /* Réduire encore la taille */
+      font-size: 10px; /* Réduction supplémentaire de la taille */
   }
 }
