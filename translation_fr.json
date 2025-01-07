@@ -133,7 +133,7 @@
       "default": "Une erreur s'est produite pendant la création d'un utilisateut: {message}"
     },
     "DELETE_USER": {
-      "default": "Une erreur s'est produite lors de la réinitialisation du MFA Email de l'utilisateur : {message}"
+      "default": "Une erreur s'est produite lors de la suppression de l'utilisateur : {message}"
     },
     "USERNAME_CHANGE": {
       "default": "Une erreur s'est produite lors de la modification du nom d'utilisateur : {message}"
