@@ -13,7 +13,6 @@ header.dashboard-header nav #header {
   background-repeat: no-repeat;
   background-position: left center; /* Position toujours à gauche */
   position: absolute; /* Position fixe par rapport au parent */
-  top: 10px; /* Distance du haut */
   left: 20px; /* Distance de la gauche */
   width: 50px; /* Largeur fixe */
   height: 50px; /* Hauteur fixe */
