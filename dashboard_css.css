@@ -21,3 +21,24 @@ header.dashboard-header nav #header {
 .page-description {
   visibility: hidden; /* Cache le texte original */
 }
+
+@media (max-width: 768px) {
+  header.dashboard-header {
+      padding: 10px; /* Réduction du padding pour petits écrans */
+  }
+
+  header.dashboard-header nav #header {
+      background-size: auto 40px; /* Réduction de la taille du logo */
+      height: 40px;
+      width: 40px;
+      margin-right: 10px; /* Réduction de l'espace entre logo et titre */
+  }
+
+  header.dashboard-header h1 {
+      font-size: 18px; /* Réduire la taille du titre */
+  }
+
+  .page-description::before {
+      font-size: 12px; /* Réduction de la taille de la description */
+  }
+}
