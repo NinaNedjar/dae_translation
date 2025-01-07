@@ -1,23 +1,87 @@
+/* Styles principaux */
 header.dashboard-header {
-    background-color: #cee7ff !important;
-    border-bottom-color: #00519e !important;
-  }
-  
-  .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
-    color: #000 !important;
-  }
-  
-  header.dashboard-header nav #header {
-    background-image: url("https://sebia-emea-public.s3.eu-west-3.amazonaws.com/Logo.png") !important;
-    background-size: auto 50px;
+  background-color: #cee7ff !important;
+  border-bottom-color: #00519e !important;
+  padding: 20px; /* Ajout d'espace pour les grands écrans */
 }
-  
+
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+  color: #000 !important;
+}
+
+header.dashboard-header nav #header {
+  background-image: url("https://sebia-emea-public.s3.eu-west-3.amazonaws.com/Logo.png") !important;
+  background-size: auto 50px;
+  background-repeat: no-repeat;
+  background-position: left center; /* Aligner l'image à gauche */
+}
+
+.page-description::before {
+  content: "You will find here all the applications of Sebia ecosystem";
+  display: block; /* Assure que le texte s'affiche */
+  visibility: visible;
+  font-size: 16px; /* Taille par défaut */
+}
+
+.page-description {
+  visibility: hidden; /* Cache le texte original */
+}
+
+/* Images responsives */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media Queries pour écrans de téléphone (moins de 768px) */
+@media (max-width: 768px) {
+  /* Ajuster le header */
+  header.dashboard-header {
+      padding: 10px; /* Réduction du padding */
+      text-align: center; /* Centrer le contenu */
+  }
+
+  /* Ajuster la navigation */
+  header.dashboard-header nav #header {
+      background-size: auto 30px; /* Réduire la taille de l'image */
+      background-position: center; /* Centrer l'image */
+  }
+
+  /* Ajuster le texte */
+  .navbar-default .navbar-brand {
+      font-size: 14px; /* Réduire la taille du texte */
+  }
+
   .page-description::before {
-    content: "You will find here all the applications of Sebia ecosystem";
-    display: block; /* Assure que le texte s'affiche */
-    visibility: visible;
+      font-size: 12px; /* Réduire la taille de la description */
+      padding: 5px;
   }
-  
-  .page-description {
-    visibility: hidden; /* Cache le texte original */
+
+  /* Alignement des éléments avec Flexbox */
+  header.dashboard-header nav {
+      display: flex;
+      flex-direction: column; /* Empiler les éléments */
+      align-items: center; /* Centrer les éléments */
   }
+}
+
+/* Media Queries pour écrans très petits (moins de 480px) */
+@media (max-width: 480px) {
+  /* Plus petits ajustements pour les très petits écrans */
+  header.dashboard-header {
+      padding: 8px;
+  }
+
+  header.dashboard-header nav #header {
+      background-size: auto 20px; /* Encore plus petit pour le logo */
+  }
+
+  .navbar-default .navbar-brand {
+      font-size: 12px; /* Texte encore plus petit */
+  }
+
+  .page-description::before {
+      font-size: 10px; /* Réduire encore la taille */
+  }
+}
