@@ -1,10 +1,13 @@
 {
     "changeEmailMenuItemText": "(inactive) Change email",
     "changePasswordMenuItemText": "(inactive) Change password",
+    "deleteUserMenuItemText": "(inactive) Delete user",
     "changeEmailMessage": "Changing email is not allowed for {username}",
     "changeEmailTitle": "Change Email ( inactive )",
     "changePasswordMessage": "Changing password is not allowed for {username}",
     "changePasswordTitle": "Password Change (inactive)",
+    "deleteDialogMessage": "Deleting user is not allowed for {username}",
+    "deleteDialogTitle": "Delete User (inactive)",
     "errors": {
         "EMAIL_CHANGE": {
         "default": "This action is not allowed in the DAE"
