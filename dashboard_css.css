@@ -1,83 +1,23 @@
-/* Styles principaux */
 header.dashboard-header {
   background-color: #cee7ff !important;
   border-bottom-color: #00519e !important;
-  padding: 20px;
-  display: flex; /* Utiliser Flexbox pour aligner le logo et le titre */
-  align-items: center; /* Centrer verticalement les éléments */
 }
 
-/* Logo à gauche */
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: #000 !important;
+}
+
 header.dashboard-header nav #header {
   background-image: url("https://sebia-emea-public.s3.eu-west-3.amazonaws.com/Logo.png") !important;
-  background-size: auto 50px; /* Taille du logo */
-  background-repeat: no-repeat;
-  background-position: left;
-  height: 50px; /* Fixer la hauteur du conteneur du logo */
-  width: 50px; /* Fixer la largeur du conteneur du logo */
+  background-size: auto 50px;
 }
 
-/* Titre à droite du logo */
-header.dashboard-header h1 {
-  font-size: 24px; /* Taille du texte du titre */
-  font-weight: bold;
-  margin: 0; /* Supprimer les marges par défaut */
-}
-
-/* Texte de description */
 .page-description::before {
   content: "You will find here all the applications of Sebia ecosystem";
-  display: block;
+  display: block; /* Assure que le texte s'affiche */
   visibility: visible;
-  font-size: 20px;
-  text-align: left;
 }
 
 .page-description {
   visibility: hidden; /* Cache le texte original */
-}
-
-/* Images responsives */
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Media Queries pour écrans de téléphone (moins de 768px) */
-@media (max-width: 768px) {
-  header.dashboard-header {
-      padding: 10px; /* Réduction du padding pour petits écrans */
-  }
-
-  header.dashboard-header nav #header {
-      background-size: auto 40px; /* Réduction de la taille du logo */
-      height: 40px;
-      width: 40px;
-      margin-right: 10px; /* Réduction de l'espace entre logo et titre */
-  }
-
-  header.dashboard-header h1 {
-      font-size: 18px; /* Réduire la taille du titre */
-  }
-
-  .page-description::before {
-      font-size: 12px; /* Réduction de la taille de la description */
-  }
-}
-
-/* Media Queries pour écrans très petits (moins de 480px) */
-@media (max-width: 480px) {
-  header.dashboard-header nav #header {
-      background-size: auto 30px; /* Réduire encore la taille du logo */
-      height: 30px;
-      width: 30px;
-  }
-
-  header.dashboard-header h1 {
-      font-size: 16px; /* Réduire la taille du titre */
-  }
-
-  .page-description::before {
-      font-size: 10px; /* Réduction supplémentaire de la taille */
-  }
 }
