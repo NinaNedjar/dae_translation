@@ -12,10 +12,9 @@ header.dashboard-header nav #header {
   background-image: url("https://sebia-emea-public.s3.eu-west-3.amazonaws.com/Logo.png") !important;
   background-size: auto 50px; /* Taille du logo */
   background-repeat: no-repeat;
-  background-position: left; /* Centrer l'image dans le conteneur */
+  background-position: left;
   height: 50px; /* Fixer la hauteur du conteneur du logo */
   width: 50px; /* Fixer la largeur du conteneur du logo */
-  margin-right: 20px; /* Ajouter de l'espace entre le logo et le titre */
 }
 
 /* Titre à droite du logo */
