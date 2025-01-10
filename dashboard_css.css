@@ -42,9 +42,3 @@ header.dashboard-header h1 {
   visibility: hidden; /* Cache le texte original */
 }
 
-/* Images responsives */
-img {
-  max-width: 100%;
-  height: auto;
-}
-
