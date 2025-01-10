@@ -1,43 +1,25 @@
-/* Styles principaux */
 header.dashboard-header {
   background-color: #cee7ff !important;
   border-bottom-color: #00519e !important;
-  position: relative; /* Permet de positionner le logo indépendamment du titre */
 }
 
-/* Logo toujours à gauche */
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: #000 !important;
+}
+
 header.dashboard-header nav #header {
+  background-size: auto 50px !important;
   background-image: url("https://sebia-emea-public.s3.eu-west-3.amazonaws.com/Logo.png") !important;
-  background-size: auto 50px; /* Taille par défaut du logo */
-  background-repeat: no-repeat;
-  background-position: left center; /* Position toujours à gauche */
-  position: absolute; /* Position fixe par rapport au parent */
-  left: 20px; /* Distance de la gauche */
-  width: 50px; /* Largeur fixe */
-  height: 50px; /* Hauteur fixe */
 }
 
-/* Titre centré */
-header.dashboard-header h1 {
-  text-align: center; /* Centre le titre horizontalement */
-  margin: 0; /* Supprime les marges */
-  line-height: 50px; /* Alignement vertical avec le logo si nécessaire */
-  font-size: 24px; /* Taille par défaut */
-  font-weight: bold;
-  color: #000;
-}
-
-/* Texte de description */
 .page-description::before {
   content: "You will find here all the applications of Sebia ecosystem";
-  display: block;
+  display: block; /* Assure que le texte s'affiche */
   visibility: visible;
-  font-size: 16px; /* Taille par défaut */
-  text-align: center;
-  margin-top: 10px; /* Espacement sous le titre */
 }
 
 .page-description {
   visibility: hidden; /* Cache le texte original */
 }
+
 
